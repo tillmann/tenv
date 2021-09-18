@@ -10,4 +10,10 @@ packages:
  - supervisor
 package_update: True
 package_upgrade: True
+users:
+ - name: manuel
+   ssh_authorized_keys:
+     - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIP9MIlO8u27qalDcTmwG9fCP8ojxJQGqdzcE+FEryjyk
+   sudo: ALL=(ALL) NOPASSWD:ALL
+
 
