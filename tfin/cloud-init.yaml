@@ -1,0 +1,13 @@
+#cloud-config
+packages:
+ - alot
+ - debfoster
+ - docker.io
+ - isync
+ - msmtp-mta
+ - neovim
+ - pass
+ - supervisor
+package_update: True
+package_upgrade: True
+
