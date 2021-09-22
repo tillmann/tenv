@@ -8,6 +8,8 @@ packages:
  - neovim
  - pass
  - supervisor
+ - drbd-utils
+ - cryptsetup
 package_update: True
 package_upgrade: True
 users:
